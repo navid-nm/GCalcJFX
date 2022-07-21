@@ -101,7 +101,7 @@ public class Entry {
     if (type == Type.NUMBER) {
       entstr += String.valueOf(number);
     } else {
-      entstr += which.toString();
+      entstr += symbol.toString();
     }
     return entstr;
   }
